@@ -1,0 +1,25 @@
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header h3{
+	width: 1024px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 700;
+	background: #333333;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+header h3 a{
+	color: #fff;
+}
+header .p1 a{
+	margin-right:70px ;
+}
+header .p2 a{
+	margin-left: 20px;
+}

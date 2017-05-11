@@ -1,0 +1,127 @@
+#screening{
+	width: 1024px;
+	height: 594px;
+	margin: 54px auto;
+	border: 1px solid rgba(242, 242, 242, 1);
+	background: rgba(242, 242, 242, 1);
+	text-align: center;
+	color: #33333;
+	position: relative;
+}
+ .header{
+	height: 40px;
+	background: rgba(153, 153, 153, 1);
+	color: #333;
+	font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 30px;
+	box-sizing: border-box;
+}
+#screening .fl span{
+	margin-right: 10px;
+} 
+#screening span{
+	cursor: pointer;
+}
+#screening .fr span{
+	margin-left: 60px ;
+}
+#screening .main{
+	width: 100%;
+}
+#screening .position{
+	width: 200px;
+	background: rgba(215, 215, 215, 1);
+    height: 554px;
+    line-height: 42px;
+    text-align: center;
+}
+
+#screening .position p{
+	cursor: pointer;
+}
+/*screening_end*/
+/*filter——start*/
+#filter{
+	display: none;
+}
+#filter div{
+	margin: 240px;
+}
+
+#filter .button{
+	width: 140px;
+    height: 40px;
+	background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(121, 121, 121, 1);
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 50px auto 0;
+    line-height: 40px;
+    cursor: pointer;
+}
+/*filter——end*/
+/*been_screening_start*/
+#been_screening{
+	height: 554px;
+	position: relative;
+	overflow: auto;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+#been_screening #span_button{
+	width: 100%;
+	/*position: absolute;
+	top:0*/
+}
+#been_screening #span_button span{
+	line-height: 40px;
+	margin: 10px;
+}
+#been_screening .classp{
+	line-height: 40px;
+	margin: 10px;
+	display: block;
+	width: 100px;
+}
+.resume{
+	width: 363px;
+	height: 272px;
+	margin: 10px 20px;
+	background: #fff;
+}
+.resume h5{
+	font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+.resume .bg1{
+	background: #333333;
+}
+.resume .bg2{
+	background: #ccc;
+}
+.resume .img{
+	width: 68px;
+    height: 68px;
+    border: 1px solid #333;
+    margin: 10px 10px 20px;
+}
+.resume p{
+	line-height: 30px;
+	font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+}
+.resume .p{
+	margin-bottom: 10px;
+}
+/*been_screening_end*/
